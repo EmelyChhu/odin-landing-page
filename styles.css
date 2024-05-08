@@ -16,7 +16,7 @@ ul {
     list-style-type: none;
 }
 
-.header, .section-1 {
+.header, .section-1, .footer {
     background-color: #1f2937;
     color: #f9faf8;
 }
@@ -172,4 +172,11 @@ li {
     border: 2px solid white;
     border-radius: 8px;
     height: 36px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 32px;
 }
