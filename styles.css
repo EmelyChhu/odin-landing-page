@@ -13,6 +13,7 @@ ul {
     display: flex;
     margin: 0px;
     gap: 16px;
+    list-style-type: none;
 }
 
 .header, .section-1 {
@@ -73,4 +74,51 @@ ul {
     padding: 8px;
     width: 120px;
     border-radius: 8px;
+}
+
+.section-2.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    padding: 32px;
+    padding-bottom: 128px;
+}
+
+.section-2.title {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: bolder;
+}
+
+.section-2.img {
+    height: 150px;
+    width: 150px;
+    border: 4px solid #3882f6;
+    border-radius: 16px;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 175px;
+    gap: 8px;
+}
+
+.section-2.subtext {
+    text-align: center;
+    color: #1f2937;
+}
+
+.section-2.imgs {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 32px;
 }
