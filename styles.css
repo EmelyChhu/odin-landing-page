@@ -68,7 +68,7 @@ ul {
     padding: 50px;
 }
 
-.section-1.button {
+.button {
     background-color: #3882f6;
     font-weight: bold;
     padding: 8px;
@@ -82,7 +82,7 @@ ul {
     align-items: center;
     gap: 40px;
     padding: 32px;
-    padding-bottom: 128px;
+    padding-bottom: 100px;
 }
 
 .section-2.title {
@@ -121,4 +121,55 @@ li {
     justify-content: center;
     flex-direction: row;
     gap: 32px;
+}
+
+.section-3.box {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    padding: 100px 235px;
+}
+
+.section-3.quote {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+.section-3.author {
+    text-align: right;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.section-4.box {
+    padding: 100px 150px;
+}
+
+.section-4.inner-box {
+    background-color: #3882f6;
+    border-radius: 16px;
+    display: flex;
+    color: white;
+    padding: 48px 96px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section-4.left {
+    display: flex;
+    flex-direction: column;
+}
+
+.section-4.title {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.section-4.button {
+    color: white;
+    border: 2px solid white;
+    border-radius: 8px;
+    height: 36px;
 }
